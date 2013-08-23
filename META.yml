@@ -28,4 +28,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/stephenenelson/convert-binhex
-version: 1.120
+version: 1.121
