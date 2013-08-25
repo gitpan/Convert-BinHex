@@ -38,7 +38,7 @@ Sören M. Andersen (somian), made it actually work under Perl 5.8.7 on MSWin32.
 
 =cut
 
-our $VERSION = '1.121'; # VERSION
+our $VERSION = '1.122'; # VERSION
 
 my $The_OS;
 BEGIN { $The_OS = $^O ? $^O : q// }

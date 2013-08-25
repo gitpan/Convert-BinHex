@@ -2,7 +2,14 @@
 abstract: 'extract data from Macintosh BinHex files'
 author:
   - 'Eriq <eryq@zeegee.com>'
-build_requires: {}
+build_requires:
+  File::Compare: 0
+  File::Slurp: 0
+  File::Temp: 0
+  FindBin: 0
+  Test::More: 0
+  Test::Most: 0
+  autodie: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -28,4 +35,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/stephenenelson/convert-binhex
-version: 1.121
+version: 1.122

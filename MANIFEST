@@ -11,11 +11,15 @@ bin/binhex.pl
 bin/debinhex.pl
 dist.ini
 lib/Convert/BinHex.pm
-t/Checker.pm
+t/1.t
+t/bin_to_hex_file.t
 t/comp2bin.t
+t/crc.t
+t/hex_to_bin_oo.t
+t/release-cpan-changes.t
 test/hexbin
 testin/eyeball.gif
 testin/eyeball.gif.hqx
 testin/hands_m.eps.hqx
-testin/pbs_mac.eps.hqx
 testout/README
+testout/eyeball.gif

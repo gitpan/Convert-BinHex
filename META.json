@@ -19,6 +19,11 @@
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Changes" : "0.19"
+         }
+      },
       "runtime" : {
          "requires" : {
             "Carp" : "0",
@@ -35,6 +40,17 @@
             "vars" : "0",
             "warnings" : "0"
          }
+      },
+      "test" : {
+         "requires" : {
+            "File::Compare" : "0",
+            "File::Slurp" : "0",
+            "File::Temp" : "0",
+            "FindBin" : "0",
+            "Test::More" : "0",
+            "Test::Most" : "0",
+            "autodie" : "0"
+         }
       }
    },
    "release_status" : "stable",
@@ -45,6 +61,6 @@
          "web" : "https://github.com/stephenenelson/convert-binhex"
       }
    },
-   "version" : "1.121"
+   "version" : "1.122"
 }
 

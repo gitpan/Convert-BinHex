@@ -160,7 +160,7 @@ use FileHandle;
 
 
 
-our $VERSION = '1.121'; # VERSION
+our $VERSION = '1.122'; # VERSION
 
 # My identity:
 my $I = 'binhex:';
@@ -275,6 +275,9 @@ Converted to Perl5 by Eryq.
 sub binhex_crc {
     my $len = length($_[0]);
     my $crc = $_[1];
+    if (! defined $crc) {
+    	$crc = 0;
+    }
     my $i;
     for ($i = 0; $i < $len; $i++) {
 	my $ocrc = $crc;
