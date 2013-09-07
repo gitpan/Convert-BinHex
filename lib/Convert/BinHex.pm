@@ -160,7 +160,7 @@ use FileHandle;
 
 
 
-our $VERSION = '1.122'; # VERSION
+our $VERSION = '1.123'; # VERSION
 
 # My identity:
 my $I = 'binhex:';

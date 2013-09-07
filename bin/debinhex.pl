@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
 
+=encoding UTF-8
 
 =head1 NAME
 
@@ -34,11 +35,11 @@ Largely untested.
 Paul J. Schinder (NASA/GSFC) mostly, though Eryq can't seem to keep
 his grubby paws off anything...
 
-Sören M. Andersen (somian), made it actually work under Perl 5.8.7 on MSWin32.
+Sšren M. Andersen (somian), made it actually work under Perl 5.8.7 on MSWin32.
 
 =cut
 
-our $VERSION = '1.122'; # VERSION
+our $VERSION = '1.123'; # VERSION
 
 my $The_OS;
 BEGIN { $The_OS = $^O ? $^O : q// }
